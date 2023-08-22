@@ -12,3 +12,7 @@ Tech Stack:
 * Lambda
 * DynamoDB
 * Github Actions
+
+
+
+Made with 💖 - Captainsloths
