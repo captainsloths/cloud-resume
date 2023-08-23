@@ -12,6 +12,7 @@ Tech Stack:
 * Lambda
 * DynamoDB
 * Github Actions
+* Terraform
 
 #
 
