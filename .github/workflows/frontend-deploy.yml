@@ -23,7 +23,8 @@ jobs:
 
   invalidate-cf:
     needs: deploy-s3
-    uses: chetan/invalidate-cloudfront-action@v2
+    steps:
+      - uses: chetan/invalidate-cloudfront-action@v2
     environment: s3-ci
     runs-on: ubuntu-latest
     env:
