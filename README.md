@@ -13,7 +13,7 @@ Tech Stack:
 * DynamoDB
 * Github Actions
 * Terraform
-
+Here's the backend terraform code which spins up lambda and S3 for now - [Terraform Code](https://github.com/captainsloths/cloud-resume-backend)
 #
 
 Made with 💖 - Captainsloths
