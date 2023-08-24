@@ -25,7 +25,7 @@ jobs:
     needs: deploy-s3
     steps:
       - uses: chetan/invalidate-cloudfront-action@v2
-    environment: s3-ci
+    environment: cf-distribution-actions
     runs-on: ubuntu-latest
     env:
       DISTRIBUTION: ${{ secrets.CF_DISTRIBUTION }}
