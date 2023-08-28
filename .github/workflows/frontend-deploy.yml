@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DISTRIBUTION: ${{ secrets.CF_DISTRIBUTION }}
-      PATHS: "/index.html /scripts.js /coolsites.html /getajob.html"
+      PATHS: "/index.html /scripts.js /coolsites.html /getajob.html /styles.css"
       AWS_REGION: "us-east-1"
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY }}
